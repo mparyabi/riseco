@@ -87,3 +87,11 @@
 .mySwiper {
   padding: 14px 20px 20px 30px;
 }
+
+.connectionError{
+  font-family: 'Diba';
+  color: white;
+  text-align: center;
+  font-size: 20pt;
+  margin-top: 89px;
+}

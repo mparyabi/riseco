@@ -38,7 +38,7 @@ function LatestNews({ LastNews }) {
           modules={[Navigation, Pagination]}
           className={styles.mySwiper}
         >
-          {LastNews.map((post) => {
+          {Object.keys(LastNews) > 0 ? (LastNews.map((post) => {
            return( 
            <SwiperSlide key={post.id} className={styles.swiperSlide}>
               <Link href={post.slug}>
@@ -58,7 +58,7 @@ function LatestNews({ LastNews }) {
                 </div>
               </Link>
             </SwiperSlide>);
-          })}
+          })) : (<div className={styles.connectionError}>ارتباط با سرور برقرار نشد</div>)}
         </Swiper>
       </div>
     </div>

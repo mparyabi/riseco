@@ -10,9 +10,14 @@ import LatestNews from "@/components/templates/HomePage/LatestNews/LatestNews";
 
 
 async function HomePage() {
-  const data = await fetch(`https://www.riseco.co/wp-json/wp/v2/posts?per_page=6`);
-  const news = await data.json();
-  
+  let news = {};
+  try{
+    const data = await fetch(`https://www.riseco.co/wp-json/wp/v2/posts?per_page=6`);
+    news = await data.json();
+  }
+  catch(error){
+    console.log("error connection to get data from riseco" , error)
+  }
   return (
     <>
       <Slider />
@@ -22,7 +27,7 @@ async function HomePage() {
       <CeoMessage/>
       {/* <Certificates/> */}
       <Customers/>
-      <LatestNews LastNews={news}/>
+     <LatestNews LastNews={news}/>
     </>
   );
 }
