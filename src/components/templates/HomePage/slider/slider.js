@@ -7,6 +7,7 @@ function Slider() {
     <div className={styles.container}>
       <div className={styles.slider}>
         <div className={styles.swiperCard}>
+          تست
           <SwiperComponent />
         </div>
       </div>
