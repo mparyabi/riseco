@@ -1,0 +1,40 @@
+
+
+.titrText {
+  background-color: #ffffff59;
+  padding: 0 25px;
+  border-radius: 11px;
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+  text-align: center;
+  font-family: "Diba";
+  font-size: 20pt;
+  color: #002f6b;
+  height: 87px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1246px;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 1px 6px 5px rgb(0 0 0 / 5%);
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+.textBottom {
+  font-family: "Ray";
+  color: #4b4b4b;
+  font-weight: 700;
+  font-size: 13pt;
+  margin-top: 23px;
+}
+
+.container{
+    margin-top: 58px;
+}

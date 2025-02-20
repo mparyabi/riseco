@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    direction: rtl;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  margin: 0;
+}
+
+@font-face {
+    font-family: "Diba";
+    src: url("/fonts/Diba.ttf") format("truetype"); /* Safari, Android, iOS */
+  }
+  @font-face {
+    font-family: "Ray";
+    src: url("/fonts/Ray.ttf") format("truetype"); /* Safari, Android, iOS */
+  }
+
+  @font-face {
+    font-family: "RayBold";
+    src: url("/fonts/Ray-ExtraBold.ttf") format("truetype"); /* Safari, Android, iOS */
+  }

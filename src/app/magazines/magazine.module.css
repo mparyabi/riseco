@@ -1,0 +1,184 @@
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, #ffffff),
+    url(/images/gray-background.jpg);
+  background-size: cover;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.container {
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.magazineSlider {
+  background-image: url("/images/page-flip-effect-examples.webp");
+  width: 1246px;
+  background-size: contain;
+  height: 442px;
+  border-radius: 15px;
+}
+
+.titr {
+  padding-top: 15px;
+  color: white;
+  font-family: "Diba";
+  font-size: 24pt;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.mySwiper {
+  padding: 14px 20px 20px 30px;
+}
+
+.magCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.magImg img {
+  border-radius: 12px;
+  cursor: pointer;
+  width: 185px;
+  transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55),
+    box-shadow 0.4s ease;
+  margin: 14px 0;
+  max-height: 255px;
+}
+
+.magImg img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.magTitr {
+  color: white;
+  font-family: "RayBold";
+  font-size: 14pt;
+}
+
+.magDesc {
+  color: white;
+  font-family: "Ray";
+  font-size: 13pt;
+}
+
+.archiveContainer {
+  width: 1246px;
+  margin: 0 auto;
+  border: 3px solid rgb(0 0 0 / 10%);
+  border-radius: 15px;
+  margin-top: 50px;
+  box-shadow: 0 12px 42px -13px rgb(13 13 31 / 20%);
+}
+
+.archTitr {
+    font-family: "Diba";
+    text-align: center;
+    color: #002f6b;
+    margin: 16px;
+    font-size: 22px;
+}
+
+.archCardContainer {
+  display: flex;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.archCard {
+  border-radius: 12px;
+  width: 17%;
+  cursor: pointer;
+  border: 3px solid rgb(0 0 0 / 10%);
+  text-align: center;
+  box-shadow: 2px 2px 11px 8px #80808014;
+  margin: 14px;
+}
+
+.archImg {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.archMagTitr {
+  color: #5c5c5c;
+  font-family: "RayBold";
+  font-size: 14pt;
+}
+
+.archMagDesc {
+  font-family: "Ray";
+  font-size: 13pt;
+  color: #5c5c5c;
+}
+
+.cover {
+  margin: 0 auto;
+  width: 1246px;
+  height: 300px;
+  background-image: url(/images/magazines/Yalda-Night.jpg);
+  margin-top: 180px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coverRight {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.newVersion {
+  color: white;
+  font-family: "Diba";
+  font-size: 20pt;
+}
+
+.coverTitr {
+  color: white;
+  margin-top: 20px;
+  font-family: "RayBold";
+  font-size: 30pt;
+}
+
+.coverLeft {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.coverImg{
+    width: 185px;
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+    transform-origin: center; /* مرکز چرخش */
+    cursor: pointer;
+}
+
+.coverImg:hover {
+    transform: translateX(12px);
+  }

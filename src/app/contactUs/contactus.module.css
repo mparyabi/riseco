@@ -1,0 +1,139 @@
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, #ffffff),
+    url(/images/gray-background.jpg);
+  background-size: cover;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.container {
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactUsContainer {
+  width: 1246px;
+  border-radius: 15px;
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.card {
+  width: 30%;
+  height: 80%;
+  background-color: #ffffff5c;
+  border-radius: 15px;
+  backdrop-filter: blur(3px);
+  box-shadow: 0px 1px 16px 6px #00000029;
+  padding: 20px;
+  background-color: gainsboro;
+
+}
+
+.cardTitr {
+  text-align: center;
+  font-family: "Diba";
+  color: #002f6b;
+  margin-top: 10px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "RayBold";
+  font-size: 14pt;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.labelForm {
+  font-size: 18px;
+  color: #002f6b;
+}
+
+.inputForm {
+  border: none;
+  background-color: #ffffffba;
+  height: 35px;
+  border-radius: 9px;
+  padding: 0 10px;
+  font-size: 14px;
+  font-family: "Ray";
+}
+
+.inputForm:focus {
+  outline: 2px solid #002f6b;
+  background-color: #fff;
+}
+
+.button {
+  align-self: center;
+  background-color: #002f6b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  font-family: "RayBold";
+}
+
+.button:hover {
+  background-color: #004080;
+}
+
+.imageRight {
+  width: 70%;
+  background-image: url(/images/central-building.jpg);
+  height: 570px;
+  border-radius: 15px;
+  background-size: cover;
+  margin-left: 20px;
+  box-shadow: 0px 1px 16px 6px #00000029;
+}
+
+.imageRight img {
+  width: 100%;
+}
+
+.mapContainer{
+    width: 1246px;
+    margin: 0 auto;
+    
+}
+
+.map{
+    width: 100%;
+    position: relative;
+    outline-style: none;
+    border-radius: 15px;
+    margin-top: 25px;
+    box-shadow: 0px 1px 16px 6px #00000029;
+    z-index: 0;
+}
+
+.popup{
+    font-family: 'RayBold';
+}

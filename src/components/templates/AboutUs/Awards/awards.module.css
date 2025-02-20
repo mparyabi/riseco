@@ -1,0 +1,74 @@
+.container {
+  margin-top: 20px;
+  width: 100%;
+  background-image: url(/images/award-background.jpg);
+  height: 395px;
+  background-size: cover;
+  background-position-y: center;
+  border-radius: 15px;
+  box-shadow: 0px 1px 16px 6px #0000001a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Card {
+  height: 213px;
+  background-color: white;
+  width: 85%;
+  display: flex;
+  box-shadow: 0px 1px 16px 6px #0000001a;
+  border-radius: 15px;
+}
+
+.mySwiper {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.awardImg {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.awardImg img {
+  max-width: 100%;
+  max-height: 134px;
+}
+
+.swiperSlide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+}
+
+.titr {
+  color: black;
+  display: flex;
+  align-items: center;
+  font-family: "RayBold";
+  text-align: center;
+  margin-left: 14px;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  color: #002f6b;
+}
+
+.subTitr {
+  font-family: "Ray";
+  font-size: 10pt;
+  color: grey;
+}
+
+.AwardsTitr {
+  color: white;
+  font-family: "Diba";
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 20pt;
+}

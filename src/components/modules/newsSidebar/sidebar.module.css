@@ -1,0 +1,145 @@
+.sidebar {
+  position: relative;
+  height: 100%; /* یا یک مقدار مشخص */
+  overflow: visible; /* اگر overflow محدود است، این را تغییر دهید */
+  width: 95%;
+}
+
+
+.latestNews {
+  position: sticky; /* حالت چسبان */
+  top: 112px; /* فاصله از بالای صفحه */
+  width: 100%;
+  background-color: #ffffff8f;
+  border-radius: 12px;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  border: 2px solid gainsboro;
+  /* box-shadow: 0px 1px 16px 6px #00000029; */
+  margin-top: 15px;
+}
+
+.gallery {
+  width: 100%;
+  background-color: #ffffff8f;
+  border-radius: 12px;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  border: 2px solid gainsboro;
+  /* box-shadow: 0px 1px 16px 6px #00000029; */
+}
+
+.titr {
+  text-align: center;
+  font-family: "RayBold";
+  color: #002f6b;
+  border-bottom: 2px #8080804f solid;
+  padding: 4px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebarCard {
+  display: flex;
+  align-items: flex-end;
+  font-family: "RayBold";
+  min-height: 107px;
+  margin: 12px 0;
+  cursor: pointer;
+  border-bottom: 2px solid gainsboro;
+  flex-direction: column;
+}
+
+.imgTitr {
+  display: flex;
+  align-items: center;
+}
+
+.sidebarImg img {
+  width: 100px;
+  border-radius: 12px;
+  margin: 11px;
+}
+
+.sidenewsTitr {
+  font-family: "RayBold";
+  width: 210px;
+  text-align: left;
+  color: black;
+  margin-left: 16px;
+}
+
+.date {
+  font-family: "Ray";
+  color: gray;
+  margin: -12px 10px 4px 18px;
+  float: left;
+}
+
+.sidebarCard:last-child {
+  border-bottom: none;
+}
+
+.lastMagazine {
+  width: 100%;
+  height: 300px;
+  background-color: #355681;
+  border-radius: 15px;
+  margin-top: 15px;
+  /* box-shadow: 0px 1px 16px 6px #00000029; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.lastMagazine img {
+  width: 180px;
+  border-radius: 15px;
+  box-shadow: 0px 1px 16px 6px #ffffff2b;
+}
+
+.magTitr {
+  color: white;
+  font-family: "Diba";
+  font-size: 13pt;
+  text-align: center;
+}
+
+.magDesc {
+  font-family: "RayBold";
+  color: white;
+  text-align: center;
+  font-size: 18pt;
+  margin-top: 20pt;
+}
+
+.mySwiper {
+  width: 95%;
+  margin-right: 4px;
+}
+
+.swiperSlide img {
+  width: 100%;
+  border-radius: 15px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 9px;
+  width: 100%;
+  border-radius: 15px;
+  height: 40%; /* ارتفاع محو شدگی */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galleryTitr {
+  margin-bottom: -25px;
+  color: white;
+}

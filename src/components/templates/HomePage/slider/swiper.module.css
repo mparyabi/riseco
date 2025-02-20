@@ -1,0 +1,85 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.swiperContainer {
+  display: flex;
+  justify-content: space-between;
+  cursor: grab;
+}
+
+.rightSection {
+  width: 30%;
+}
+
+.descriptionSection {
+  width: 70%;
+}
+
+.logoContainer {
+  border: 2px solid #002f6b;
+  width: 200px;
+  height: 140px;
+  border-radius: 15px;
+  background-color: #144b9114;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoContainer img {
+  flex-shrink: 0;
+  flex-grow: 0;
+  max-width: 97%;
+}
+
+.titleDescription {
+  font-family: Diba;
+  color: #002f6b;
+  font-size: 20pt;
+}
+
+.textDescription {
+  margin-top: 20px;
+  line-height: 27px;
+  font-family: Ray;
+  font-size: 18px;
+}
+
+.buttonDesc {
+  margin: 20px 16px;
+  border: 2px solid #002f6b;
+  padding: 6px;
+  font-family: RayBold;
+  display: flex;
+  width: 112px;
+  justify-content: center;
+  float: left;
+  cursor: pointer;
+  color: #002f6b;
+}

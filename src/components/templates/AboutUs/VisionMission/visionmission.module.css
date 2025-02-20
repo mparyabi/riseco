@@ -1,0 +1,39 @@
+
+.visionContainer {
+    width: 1246px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .missionSec {
+    width: 46%;
+    border: 2px solid gainsboro;
+    border-radius: 15px;
+    padding: 17px;
+    background-color: #ffffff38;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 1px 16px 6px #0000001a;
+  }
+  
+  
+  .visionSec {
+    width: 47%;
+  }
+  
+  .missionSecText {
+    font-family: "Ray";
+    font-size: 14pt;
+    text-align: justify;
+  }
+  
+  .missionSecLogo {
+    font-family: "Diba";
+    font-size: 18pt;
+    display: flex;
+    align-items: center;
+    color: #002f6b;
+    margin: 12px 0;
+  }
+  

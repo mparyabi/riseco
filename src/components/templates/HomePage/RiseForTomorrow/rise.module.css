@@ -1,0 +1,41 @@
+.container {
+  background: radial-gradient(
+    circle,
+    rgb(111 181 255 / 29%) 0%,
+    rgba(255, 255, 255, 4) 10%
+  );
+  height: 180px;
+  margin-top: 55px;
+}
+
+.titr {
+  text-align: center;
+  font-size: 20pt;
+  color: #002f6b;
+  background-image: url(/images/tree.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 239px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-size: contain;
+}
+
+.titrText {
+  background-color: #ffffff96;
+  padding: 0 10px;
+  border-radius: 11px;
+  margin-top: 78px;
+  backdrop-filter: blur(2px);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 0px 0px 8px rgb(5 6 18 / 15%);
+}
+
+.rise {
+  font-weight: 600;
+  margin-right: 7px;
+}

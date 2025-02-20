@@ -1,0 +1,44 @@
+.HistoryText {
+    color: white;
+    font-family: "RayBold";
+    margin: 0 100px;
+    text-align: justify;
+    font-size: 15pt;
+    background: #011e38b3;
+    padding: 15px;
+    border-radius: 0 15px 15px;
+    box-shadow: 1px 0px 18px #ffffff66;
+    backdrop-filter: blur(2px);
+  }
+  
+  .HistoryTitr {
+    color: #002f6b;
+    font-family: "Diba";
+    background-color: #ffffffc9;
+    font-size: 17pt;
+    padding: 2pt 20pt;
+    border-radius: 15px 15px 0 0;
+    backdrop-filter: blur(2px);
+  }
+  
+  .CartcontainerboxHistory {
+    margin: 0 auto;
+    min-height: 300px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    background-blend-mode: overlay;
+    width: 1246px;
+    overflow: hidden;
+    background-image: url(/images/Base06-web.jpg);
+    background-size: cover;
+    background-position-y: -209px;
+    flex-direction: column;
+    align-items: baseline;
+    background-color: #ffe00033;
+  }
+
+  .Cartcontainer {
+    margin: 5px auto;
+    max-width: 1246px;
+  }

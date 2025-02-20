@@ -1,0 +1,57 @@
+
+.Cartcontainerbox {
+    margin: 0 auto;
+    max-height: 300px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    background: radial-gradient(circle at 30% 50%, #0e406c, transparent 60%),
+      radial-gradient(circle at 70% 50%, #c4faeb, transparent 60%);
+    background-color: #f3f3f3;
+    background-blend-mode: overlay;
+    width: 1246px;
+  }
+  
+  
+  .Overlayimg {
+    width: 113%;
+  }
+  
+  .CartPic {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 500px;
+  }
+  
+  .CartPic img {
+    height: 120%;
+  }
+  
+  .Cartcontainer {
+    margin: 5px auto;
+    max-width: 1246px;
+  }
+  
+  .Carttitr {
+    text-align: center;
+    font-family: "RayBold";
+    font-size: 18pt;
+    color: #002f6b;
+    margin-bottom: 12px;
+  }
+  
+  .CarttextContainer {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 50px;
+    font-family: "Ray";
+    color: #4b4b4b;
+    text-align: justify;
+    font-weight: 700;
+    font-size: 13pt;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  

@@ -1,0 +1,58 @@
+.container {
+  max-width: 1246px;
+  margin: 0 auto;
+}
+
+.titr {
+  text-align: center;
+  font-family: "Diba";
+  font-size: 20pt;
+  padding-top: 108px;
+  color: #002f6b;
+  background-image: url(/images/lion.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: contain;
+  
+}
+
+.section {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-left: 2px dashed gainsboro;
+}
+
+.section:last-child{
+  border-left: 0;
+}
+
+.sectionTitr {
+  font-family: "RayBold";
+  font-size: 20pt;
+  margin-bottom: 13px;
+  color: #464646;
+}
+
+.sectionText {
+  font-family: "Ray";
+  color: #4b4b4b;
+  text-align: justify;
+  font-weight: 700;
+  font-size: 13pt;
+  width: 90%;
+  min-height: 194px;
+}
+
+.sections {
+  display: flex;
+  margin-top: 60px;
+}
+
+.sectionIcon {
+  height: 128px;
+  display: flex;
+  align-items: center;
+}
